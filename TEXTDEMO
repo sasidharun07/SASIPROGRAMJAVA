@@ -1,0 +1,24 @@
+package sasijava;
+
+import java.util.ResourceBundle;
+
+public class TextDemo {
+
+	public static void main(String[] args) {
+		ResourceBundle rb = ResourceBundle.getBundle("US_en");
+		System.out.println(rb.getString("amma"));
+		System.out.println(rb.getString("appa"));
+		System.out.println(rb.getString("anna"));
+		System.out.println(rb.getString("thambi"));
+
+	}
+
+}
+===============================================================================================================================================
+create new file 
+CODING:
+=======
+anna = younger brother
+amma = mother
+appa = daddy
+thambi = elder brother
