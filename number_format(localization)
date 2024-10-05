@@ -1,0 +1,33 @@
+package sasijava;
+
+import java.text.NumberFormat;
+import java.util.Locale;
+
+public class NUMBER_FORMAT
+{
+	public static void main(String[] args) 
+    {
+		Locale l1 = new Locale("en","IN");
+		double amt = 12368928;
+		
+		NumberFormat nf =  NumberFormat.getCurrencyInstance(l1);
+		System.out.println(nf.format(amt));
+		
+		l1 = new Locale("en","US");
+		nf = NumberFormat.getCurrencyInstance(l1);
+		System.out.println(nf.format(amt));
+		
+		l1 = new Locale("en","IN");
+		nf = NumberFormat.getCurrencyInstance(l1);
+		System.out.println(nf.format(amt));
+		
+		l1 = new Locale("ja","JP");
+		nf = NumberFormat.getCurrencyInstance(l1);
+		System.out.println(nf.format(amt));
+		
+		l1 = new Locale("fr","FR");
+		nf = NumberFormat.getCurrencyInstance(l1);
+		System.out.println(nf.format(amt));
+	}
+
+}
