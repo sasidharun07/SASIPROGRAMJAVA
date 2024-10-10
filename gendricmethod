@@ -1,0 +1,16 @@
+package sasijava;
+
+public class gendericmethod {
+<T> void show(T v1,T v2)
+{
+	System.out.println(v1+" "+v2);
+}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		gendericmethod g1 = new gendericmethod();
+		g1.show(100, "sasi");
+		g1.show("mani", 90);
+		g1.show(100.00, 100.00);
+	}
+
+}
