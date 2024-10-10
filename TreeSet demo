@@ -1,0 +1,27 @@
+package sasijava;
+import java.util.*;
+
+public class TreeSetdemo {
+
+	public static void main(String[] args) {
+		TreeSet<Integer> c =new TreeSet<Integer>();
+	c.add(99);
+	c.add(23);
+	c.add(23);
+	c.add(45);
+	c.add(65);
+	c.add(99);
+	System.out.println(c.size());
+	System.out.println(c);
+/*
+TreeSet:
+========
+unique
+null not accept
+ascending
+*/
+	
+
+}
+
+}
