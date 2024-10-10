@@ -1,0 +1,19 @@
+package sasijava;
+
+public class gendricclassdemo<T> {
+void show(T v1,T v2)
+{
+	System.out.println(v1+" "+v2);
+}
+	public static void main(String[] args) {
+		//Wrapper class obly use : INterger,float,character,double , string
+		gendricclassdemo<Integer> g1  = new gendricclassdemo<Integer>();
+		g1.show(33, 44);
+		gendricclassdemo<String> g2  = new gendricclassdemo<String>();
+		g2.show("sasi", "dharun");
+		gendricclassdemo<Float> g3  = new gendricclassdemo<Float>();
+		g3.show(33.23f, 44.32f);
+		
+	}
+
+}
