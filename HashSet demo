@@ -1,0 +1,28 @@
+package sasijava;
+import java.util.*;
+public class HashSetDemo {
+
+	public static void main(String[] args) {
+		HashSet<Integer> c =new HashSet<Integer>();
+		c.add(99);
+		c.add(23);
+		c.add(23);
+		c.add(45);
+		c.add(65);
+		c.add(99);
+		c.add(null);
+		c.add(null);
+		System.out.println(c.size());
+		System.out.println(c);
+ /*
+  HashSet:
+  ========
+  unique
+  null accept
+  random
+  */
+		
+
+	}
+
+}
