@@ -1,33 +1,22 @@
 package sasijava;
-
-class paybills
+public class emp
 {
-	int amount = 300;
-	void payment()
-	{
-		System.out.println("send money home , recharge mobile");
-	}
-}
-class googlepay extends paybills
+   String empname;
+   String empadd;
+   public emp()
+   {
+      empname = "sasi";
+      empadd = "717823p351";
+   }
+   public void display()
+   {
+      System.out.println("employee name : "+empname);
+      System.out.println("employee address : "+empadd);
+   }
+
+public static void main(String[] args)
 {
-	int amount = 10;  
-	googlepay()
-	{
-		System.out.println("child constructor");
-	}
-	void payment()
-	{
-		super.payment();
-		System.out.println("do direct bank to bank transfrs:"+amount);
-		System.out.println("parent amount: "+super.amount);
-	}
+   emp newemp = new emp();
+   newemp.display();
 }
-public class consructor {
-
-	public static void main(String[] args) {
-		googlepay b = new googlepay();
-		b.payment();
-
-	}
-
 }
