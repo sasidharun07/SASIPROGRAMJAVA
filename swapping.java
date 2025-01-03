@@ -1,15 +1,20 @@
-package sasijava;
-import java.util.*;
+package SasiJava;
+
 public class swapping {
 
-	public static void main(String[] args) 
-	{   Scanner sc = new Scanner(System.in);
-    int a = sc.nextInt();
-    int b = sc.nextInt();
-    System.out.println("before swapping: "+a+" and "+b);
-    int t = a;
-    a = b;
-    b = t;
-    System.out.println("after swapping: "+a+" and "+b);
-}
+	public static void main(String[] args) {
+		int a =10;
+		int b=20;
+		System.out.println("before swap : ");
+		System.out.println(a+" "+b);
+		b = b+a;
+		a=b-a;
+		b=b-a;
+		System.out.println("after swap : ");
+		System.out.println(a+" "+b);
+
+		// TODO Auto-generated method stub
+
+	}
+
 }
