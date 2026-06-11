@@ -1,0 +1,10 @@
+move all the zero's to end
+input = {1,2,0,4,0,5};
+
+rotate array by left / right by k times
+input = {1,2,3,4,5} k=2 
+output = {3,4,5,1,2}
+
+balance and split the array (1221)
+
+find max word in a arrya (2114)
